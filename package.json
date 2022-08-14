@@ -32,7 +32,6 @@
   },
   "extends": "next",
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-typos": "off"
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
   }
 }
