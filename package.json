@@ -30,9 +30,9 @@
     "eslint-config-next": "^12.1.5",
     "prettier": "^2.6.2"
   },
-  "extends": "next/core-web-vitals  ",
+  "extends": "next",
   "rules": {
-    "react/Divider": "off",
-    "@next/next/./pages/index.js": "off"
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-typos": "off"
   }
 }
