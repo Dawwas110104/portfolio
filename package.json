@@ -30,7 +30,7 @@
     "eslint-config-next": "^12.1.5",
     "prettier": "^2.6.2"
   },
-  "extends": "next",
+  "extends": "next/core-web-vitals",
   "settings": {
     "next": {
       "rootDir": "packages/my-app/"
