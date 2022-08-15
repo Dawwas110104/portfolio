@@ -18,8 +18,9 @@ import {
           PresensiQ <Badge>2022</Badge>
         </Title>
         <P>
-          A Markdown note-taking app with 100+ plugins, cross-platform and
-          encrypted data sync support. The life-time revenue is more than $300k.
+          PresensiQ carries the concept of 'Digitizing Presence' 
+          so that the presence can run transparently and make it 
+          easier for the data recap process.
         </P>
         <List ml={4} my={4}>
           <ListItem>
