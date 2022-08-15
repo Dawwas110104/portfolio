@@ -3,13 +3,7 @@
   "extends": "next",
   "rules": {
     "react/no-unescaped-entities": "off",
-    "no-unused-vars": [
-      "error",
-      {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     "react/display-name": 0
   }
 }
