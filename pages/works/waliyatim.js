@@ -18,9 +18,7 @@ import {
           Wali Yatim <Badge>2022</Badge>
         </Title>
         <P>
-          PresensiQ carries the concept of 'Digitizing Presence' 
-          so that the presence can run transparently and make it 
-          easier for the data recap process.
+          The guardians of the orphans want to help make it easier to record data on orphans and help bring them together with donors.
         </P>
         <List ml={4} my={4}>
           <ListItem>
