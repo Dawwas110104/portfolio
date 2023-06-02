@@ -36,15 +36,13 @@ const Works = () => (
             title="PKDTM1 IPM Sepanjang"
             thumbnail={pkdtm2023}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Information center for participants of PKDTM1 IPM Sepanjang 2023.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="lafi" thumbnail={lafi} title="Lafi Swim">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+            Company Profile as a business catalog and training information center and contact person
           </WorkGridItem>
         </Section> 
       </SimpleGrid>

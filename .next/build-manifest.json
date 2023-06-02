@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
+    "/works/lafi": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/lafi.js"
+    ],
     "/works/pkdtm2023": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
