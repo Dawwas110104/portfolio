@@ -60,11 +60,12 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/dawwas.jpg"
+              src="/images/dawwas-1.jpeg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
               height="100%"
+              backgroundSize={'cover'}
             />
           </Box>
         </Box>
