@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import presensiQ from '../public/images/works/PresensiQ.png'
-import waliYatim from '../public/images/works/WaliYatim.png'
+import waliYatim from '../public/images/works/Waliyatim.png'
 import pkdtm2023 from '../public/images/works/pkdtm.png'
 import lafi from '../public/images/works/lafi1.png'
 
