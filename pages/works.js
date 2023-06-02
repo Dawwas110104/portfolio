@@ -5,6 +5,9 @@ import { WorkGridItem } from '../components/grid-item'
 
 import presensiQ from '../public/images/works/PresensiQ.png'
 import waliYatim from '../public/images/works/WaliYatim.png'
+import pkdtm2023 from '../public/images/works/pkdtm.png'
+import lafi from '../public/images/works/lafi1.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -15,7 +18,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="presensiQ" title="PresensiQ Website" thumbnail={presensiQ}>
+          <WorkGridItem id="presensiQ" title="PresensiQ" thumbnail={presensiQ}>
           Digital presence system to support online learning system 
           with several features and roles
           </WorkGridItem>
@@ -27,22 +30,23 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        {/* <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="pkdtm2023"
+            title="PKDTM1 IPM Sepanjang"
+            thumbnail={pkdtm2023}
           >
             A video work generated with deep learning, imitating famous four
             painters like Van Gogh
           </WorkGridItem>
         </Section>
+
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+          <WorkGridItem id="lafi" thumbnail={lafi} title="Lafi Swim">
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
-        </Section> */}
+        </Section> 
       </SimpleGrid>
 
       {/* <Section delay={0.2}>
